@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MiniTube - Watch</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Video</h1>
+    </header>
+    <main>
+      <div class="watch-area">
+        <video id="player" controls width="720">
+          Sorry, your browser doesn't support embedded videos.
+        </video>
+        <div class="meta">
+          <p id="description"></p>
+          <div class="actions">
+            <button id="likeBtn">Like (<span id="likesCount">0</span>)</button>
+          </div>
+        </div>
+
+        <section class="comments">
+          <h3>Comments</h3>
+          <div id="commentsList" class="comments-list">No comments yet</div>
+          <form id="commentForm">
+            <input id="commentInput" placeholder="Write a comment…" />
+            <button type="submit">Send</button>
+          </form>
+        </section>
+      </div>
+    </main>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/watch.js" defer></script>
+  </body>
+</html>
