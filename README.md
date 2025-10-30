@@ -46,8 +46,8 @@ This will start both the client (React) and server (Node.js) applications.
 ## Update summary:
 
 Added a minimal in-memory video store and endpoints:
-GET /videos — list videos
-GET /videos/:id — get video details
-POST /videos — create video metadata (title + url required)
-Added an in-memory comments store placeholder
-Left real-time Socket.IO connection in place (we'll wire rooms/events next)
+- GET /videos — list videos
+- GET /videos/:id — get video details
+- POST /videos — create video metadata (title + url required)
+- Added an in-memory comments store placeholder
+- Left real-time Socket.IO connection in place (we'll wire rooms/events next)
