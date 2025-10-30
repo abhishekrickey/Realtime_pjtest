@@ -11,14 +11,13 @@ A real-time chat application built with React, Node.js, and Socket.IO.
 
 ## Getting Started
 - First, make sure you're in the server directory and install the dependencies:
-  ```cd server; npm install express socket.io cors typescript @types/express @types/cors @types/node ts-node-dev
-  ```
+  `cd server; npm install express socket.io cors typescript @types/express @types/cors @types/node ts-node-dev`
 
  - I see we're still having permission issues with PowerShell. Let's try with the Node terminal that's available:
-    ```pm install express socket.io cors typescript @types/express @types/cors @types/node ts-node-dev
-    ```
+    `pm install express socket.io cors typescript @types/express @types/cors @types/node ts-node-dev`
+   
 - After the installation is complete, start the servnpx ts-node-dev src/index.tser:
-- ```npx ts-node-dev src/index.ts```
+- `npx ts-node-dev src/index.ts`
 1. Install dependencies:
    ```bash
    npm run install-all
